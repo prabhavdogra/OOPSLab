@@ -45,16 +45,19 @@ public:
 //     > Hybrid Inheritance: 
 //       Deriving new classes from multiple existing classes and vice versa
 // • Types of Access Specifiers:
-//     > Public Inheritance: Public members of base class become public members of derived class
-//     > Private Inheritance: Public members of base class become private members of derived class
-//     > Protected Inheritance: Public members of base class become protected members of derived class
+//     > Public Inheritance: 
+//       Public members of base class become public members of derived class
+//     > Private Inheritance: 
+//       Public members of base class become private members of derived class
+//     > Protected Inheritance: 
+//       Public members of base class become protected members of derived class
 // • Access Specifiers in Inheritance:
-//            |      Mode of Inheritance
-// Base Class | public    | protected | private
-// --------------------------------------------
-// private    | N/A       | N/A       | N/A
-// protected  | protected | protected | private
-// public     | public    | protected | private
+//                  |      Mode of Inheritance
+//       Base Class | public    | protected | private
+//       --------------------------------------------
+//       private    | N/A       | N/A       | N/A
+//       protected  | protected | protected | private
+//       public     | public    | protected | private
 class Person {
     int age;
     string name;
@@ -98,16 +101,24 @@ public:
     void play() { cout << "Piano playing" << endl; }
 };
 
-// • Virtual Functions: Functions that can be overridden in derived classes
-// • Purely Virtual Functions: Virtual functions with no definition
+// • Virtual Functions: 
+//   Functions that can be overridden in derived classes
+// • Purely Virtual Functions: 
+//   Virtual functions with no definition
 //     virtual void play() = 0;
-// • Abstract Function: A purely virtual function
-// • Abstract Class: Class with at least one purely virtual function
-// • Interface Class: A class with all purely virtual functions
+// • Abstract Function: 
+//   A purely virtual function
+// • Abstract Class: 
+//   Class with at least one purely virtual function
+// • Interface Class: 
+//   A class with all purely virtual functions
 // • Types of constructors:
-//     > Default Constructor: No parameters
-//     > Parameterized Constructor: Parameters
-//     > Copy Constructor: Copying one object to another
+//     > Default Constructor: 
+//       Constructor has no parameters
+//     > Parameterized Constructor: 
+//       Constructor has parameters
+//     > Copy Constructor: 
+//       Copying one object to another
 
 signed main() {
     cin.tie(nullptr)->sync_with_stdio(false);
